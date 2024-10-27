@@ -63,11 +63,9 @@ Below is the Architecture Diagram representing the flow of data between the diff
 - Orchestration & Monitoring: Manages and monitors workflows through Azure Data Factory pipelines.
 - Visualization: Power BI dashboards visualize trends and predictions based on processed data.
 
-[comment]: <> (Include an architecture diagram image here.)
-
 #### Explanation of Architecture Diagram<br>
 
-Refer to the attached Archi_Doc (pages --) for more detailed descriptions of individual components and configurations.<br>
+Please take a look at the attached ###Solution_Architecture_Diagram.svg for more detailed descriptions of individual components and configurations.<br>
 
 Key points include:
 - Azure Blob Storage: Stores raw COVID-19 and population data.
