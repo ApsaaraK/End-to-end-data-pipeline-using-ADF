@@ -65,7 +65,7 @@ Below is the Architecture Diagram representing the flow of data between the diff
 
 #### Explanation of Architecture Diagram<br>
 
-Please take a look at the attached ### Solution_Architecture_Diagram.svg for more detailed descriptions of individual components and configurations.<br>
+Please take a look at the attached **Solution_Architecture_Diagram.svg** for more detailed descriptions of individual components and configurations.<br>
 
 Key points include:
 - Azure Blob Storage: Stores raw COVID-19 and population data.
