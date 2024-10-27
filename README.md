@@ -155,6 +155,10 @@ Pipeline Execution Time: Average time to process and transform data.<br>
 - ECDC Website for Covid-19 Data - https://www.ecdc.europa.eu/en/covid-19/data
 - Euro Stat Website for Population Data - https://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/tps00010.tsv.gz
 
+#### Attached Docs Editable Versions
+
+- Solution Architecture Diagram : https://drive.google.com/drive/folders/1w9XWcmfZ6PwKz0x7XqkbKGOHk9xeM7Ul
+
 #### Azure Storage Solutions
 
 - Introduction to Azure Storage services - https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction
