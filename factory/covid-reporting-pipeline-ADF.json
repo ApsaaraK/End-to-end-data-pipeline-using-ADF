@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-pipeline-ADF",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "410d3da0-675d-464a-9e41-a613fd36e7f4",
+		"tenantId": "9b749fd6-19a7-47e2-a4be-7537ca003df4"
+	}
+}
