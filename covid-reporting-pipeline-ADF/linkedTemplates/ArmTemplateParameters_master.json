@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "covid-reporting-pipeline-ADF"
+		},
+		"ls_ablob_covid_reporting_pipeline_sa_connectionString": {
+			"value": ""
+		},
+		"ls_adls_covid_reporting_pipeline__dl_accountKey": {
+			"value": ""
+		},
+		"ls_adls_covid_reporting_pipeline__dl_properties_typeProperties_url": {
+			"value": "https://covidreportingpipelinedl.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
