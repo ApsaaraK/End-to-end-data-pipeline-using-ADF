@@ -68,6 +68,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "population_by_age.tsv",
+						"folderPath": "population",
 						"fileSystem": "raw"
 					},
 					"columnDelimiter": "\t",
@@ -96,8 +98,7 @@
 					"location": {
 						"type": "AzureBlobStorageLocation",
 						"fileName": "population_by_age.tsv.gz",
-						"folderPath": "population",
-						"container": "raw"
+						"container": "population"
 					},
 					"columnDelimiter": "\t",
 					"compressionCodec": "gzip",
