@@ -157,7 +157,7 @@ Pipeline Execution Time: Average time to process and transform data.<br>
 
 #### Attached Docs Editable Versions
 
-- Solution Architecture Diagram : https://drive.google.com/drive/folders/1w9XWcmfZ6PwKz0x7XqkbKGOHk9xeM7Ul
+- Solution Architecture Diagram: https://drive.google.com/drive/folders/1w9XWcmfZ6PwKz0x7XqkbKGOHk9xeM7Ul
 
 #### Azure Storage Solutions
 
@@ -166,6 +166,8 @@ Pipeline Execution Time: Average time to process and transform data.<br>
 - Azure Synapse Analytics - https://docs.microsoft.com/en-us/azure/synapse-analytics/overview-what-is
 - Azure Cosmos DB - https://docs.microsoft.com/en-us/azure/cosmos-db/introduction
 - Azure Data Lake Storage Gen2 - https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction
+- Copy Activity Introduction - https://docs.microsoft.com/en-us/azure/data-factory/copy-activity-overview
+- Linked Services & Datasets - https://docs.microsoft.com/en-us/azure/data-factory/concepts-linked-services / https://docs.microsoft.com/en-us/azure/data-factory/concepts-datasets-linked-services
     
 [comment]: <> (GitHub Repository Link:)
 [comment]: <> (Key Scripts: ARM templates and pipeline configuration files.)
