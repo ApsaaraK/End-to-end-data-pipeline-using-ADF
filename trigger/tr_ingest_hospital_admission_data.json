@@ -6,12 +6,8 @@
 		"pipelines": [
 			{
 				"pipelineReference": {
-					"referenceName": "pl_ECDC_data",
+					"referenceName": "pl_ingest_ECDC_data",
 					"type": "PipelineReference"
-				},
-				"parameters": {
-					"sourceRelativeURL": "cloudboxacademy/covid19/blob/main/raw/main/ecdc_data/hospital_admissions.csv",
-					"sinkFileName": "hospital_admissions.csv"
 				}
 			}
 		],
