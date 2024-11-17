@@ -168,6 +168,8 @@ Pipeline Execution Time: Average time to process and transform data.<br>
 - Azure Data Lake Storage Gen2 - https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction
 - Copy Activity Introduction - https://docs.microsoft.com/en-us/azure/data-factory/copy-activity-overview
 - Linked Services & Datasets - https://docs.microsoft.com/en-us/azure/data-factory/concepts-linked-services / https://docs.microsoft.com/en-us/azure/data-factory/concepts-datasets-linked-services
+- Control Flow Activities - https://docs.microsoft.com/en-us/azure/data-factory/control-flow-lookup-activity
+- Linked Service Parameters - https://docs.microsoft.com/en-us/azure/data-factory/parameterize-linked-services
     
 [comment]: <> (GitHub Repository Link:)
 [comment]: <> (Key Scripts: ARM templates and pipeline configuration files.)
