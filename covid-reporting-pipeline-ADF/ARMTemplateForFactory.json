@@ -26,6 +26,14 @@
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/30e75d65-af19-4f03-82d3-ab9c7992a3b2/resourceGroups/Covid-reporting-Rg/providers/Microsoft.Storage/storageAccounts/covidreportingpipelinesa"
+		},
+		"tr_ingest_hospital_admission_data_properties_pl_ECDC_data_parameters_sourceRelativeURL": {
+			"type": "string",
+			"defaultValue": "cloudboxacademy/covid19/blob/main/raw/main/ecdc_data/hospital_admissions.csv"
+		},
+		"tr_ingest_hospital_admission_data_properties_pl_ECDC_data_parameters_sinkFileName": {
+			"type": "string",
+			"defaultValue": "hospital_admissions.csv"
 		}
 	},
 	"variables": {
@@ -553,6 +561,40 @@
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/datasets/ds_ECDC_raw_csv_http')]",
 				"[concat(variables('factoryId'), '/datasets/ds_ECDC_raw_csv_dl')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/tr_ingest_hospital_admission_data')]",
+			"type": "Microsoft.DataFactory/factories/triggers",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"runtimeState": "Started",
+				"pipelines": [
+					{
+						"pipelineReference": {
+							"referenceName": "pl_ECDC_data",
+							"type": "PipelineReference"
+						},
+						"parameters": {
+							"sourceRelativeURL": "[parameters('tr_ingest_hospital_admission_data_properties_pl_ECDC_data_parameters_sourceRelativeURL')]",
+							"sinkFileName": "[parameters('tr_ingest_hospital_admission_data_properties_pl_ECDC_data_parameters_sinkFileName')]"
+						}
+					}
+				],
+				"type": "ScheduleTrigger",
+				"typeProperties": {
+					"recurrence": {
+						"frequency": "Day",
+						"interval": 1,
+						"startTime": "2024-11-17T12:25:00",
+						"timeZone": "Sri Lanka Standard Time",
+						"schedule": {}
+					}
+				}
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/pipelines/pl_ECDC_data')]"
 			]
 		}
 	]
